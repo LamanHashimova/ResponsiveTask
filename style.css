@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0 2rem;
+}
+.container__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Section1{
+    padding: 20px 0;
+    background-color:#F4F5F6;
+ 
+}
+#Section1 nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#Section1 nav .a{
+    text-decoration: none;
+    color: #666666;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 100;
+}
+nav .career{
+    border: 1.5px solid #0056c1;
+    color: #0056c1;
+    border-radius: 40px;
+    font-weight: 500;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.career:hover{
+    background-color: #0056c1;
+    color: white;
+}
+
+ #Section1 nav .a:hover{
+    text-decoration: underline;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.logo .search1 a{
+    text-decoration: none;
+}
+.logo .search1 a span{
+    color: #666666;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 100;
+}
+.logo .search1 a i{
+    color: #666666;
+    font-size: 12px;
+}
+.logo .language select{
+    border: none;
+   background-color:#F4F5F6;
+   outline: none;
+   color: #666666;
+}
+select:hover{
+    cursor: pointer;
+}
+.logo .phone a i{
+    color: #666666;
+    font-size: 15px; 
+}
+.logo .phone a{
+    text-decoration: none;
+}
+.logo .phone a span{
+    color: #666666;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 600; 
+}
+#Section2{
+    padding: 15px 0;
+}
+.section-logo{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.section-logo nav a{
+text-decoration: none;
+color: #666666;
+font-size: 15px;
+font-family: sans-serif;
+font-weight: 500;
+transition: 0.2s;
+}
+.section-logo nav a:hover{
+    color: black;
+}
+.section-logo nav a span{
+    margin: 0 10px;
+}
+.Section-text{
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+.Section-text a{
+text-decoration: none;
+font-size: 15px;
+color: #0056c1;
+font-family: sans-serif;
+font-weight: 600;
+}
+.Section-text svg{
+    height: 24px;
+    width: 24px;
+}
+#Section3{
+    padding: 30px 0;
+}
+#Section3 nav{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+#Section3 nav a{
+    text-decoration: none;
+    color: #17253A;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#Header2 #Section-first{
+    padding: 15px 0;
+    background-color:#F4F5F6;
+}
+
+#Section-first .word span{
+    color: #262626;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#Section-first .word span::after{
+    content: '⌵';
+    font-size: 20px;
+    font-weight: 800;
+
+}
+#Section-first .icon-menu{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+#Section-first .icon-menu .search2 i{
+    color: #666666;
+    font-size: 12px;
+    opacity: 0.8;
+
+}
+#Section-first .icon-menu .lang span{
+    font-family: sans-serif;
+    color: #666666;
+    font-size: 15px;
+}
+#Section-first .icon-menu .lang span::after{
+    content: '⌵';
+    font-size: 20px;
+    font-weight: 600;    
+}
+#Section-first .icon-menu .number i{
+    color: #666666;
+    font-size: 15px; 
+}
+#Section-first .icon-menu .number span{
+    color: #666666;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 600; 
+    }
+#Header2 #Section-second{
+padding:15px 0 ;
+}
+
+#Header2 #Section-second i{
+font-size: 40px;
+    }
+#Header2{
+        display: none;
+    }
+@media(max-width:992px){
+   #Header1{
+    display: none;
+   } 
+   #Header2{
+    display: block;
+   }
+}
